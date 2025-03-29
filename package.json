@@ -1,0 +1,73 @@
+{
+  "name": "github-city",
+  "version": "0.1.0",
+  "description": "A 3D visualization of GitHub repositories and their relationships",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "github",
+    "3d",
+    "visualization",
+    "react",
+    "three.js",
+    "next.js",
+    "webgl",
+    "3d-graphics",
+    "github-api",
+    "repository-visualization",
+    "interactive-3d",
+    "react-three-fiber",
+    "d3",
+    "data-visualization",
+    "typescript",
+    "tailwindcss",
+    "shadcn-ui",
+    "radix-ui",
+    "modern-ui",
+    "github-ecosystem"
+  ],
+  "author": "Asier Bayón",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asierbayon/github-city.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asierbayon/github-city/issues"
+  },
+  "homepage": "https://github.com/asierbayon/github-city#readme",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.0",
+    "@types/d3-scale": "^4.0.9",
+    "@types/three": "^0.175.0",
+    "axios": "^1.8.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "d3-scale": "^4.0.2",
+    "moment": "^2.30.1",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadcn-ui": "^0.9.5",
+    "tailwind-merge": "^3.0.2",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.28",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
